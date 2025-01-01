@@ -1,0 +1,45 @@
+:root {
+    --main-color-blue: rgba(27, 125, 255, 1);
+}
+
+body {
+    margin: 0;
+}
+
+.auth-bg {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+
+.auth-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../img/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.auth-block {
+    background: transparent;
+
+    width: 500px;
+    height: 650px;
+}
+
+.auth-border {
+    border: 2px solid var(--main-color-blue);
+    border-radius: 25px;
+    box-shadow: 5px 0 25px var(--main-color-blue);
+}
+
+.auth-display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

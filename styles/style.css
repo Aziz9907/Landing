@@ -60,14 +60,14 @@ header::before {
 .header-navs {
     text-decoration: none;
     color: white;
-    font-size: 26px;
+    font-size: 1.6rem;
 }
 
 
 .head {
     color: white;
     padding: 17% 0 0 0;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -75,7 +75,7 @@ header::before {
     color: white;
     padding: 2% 0 4% 0;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .search-block {
@@ -96,7 +96,7 @@ header::before {
     flex-direction: column;
     margin: 0;
     width: 355px;
-    font-size: 20px;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ header::before {
 }
 
 .button-search  {
-    font-size: 26px;
+    font-size: 1.6rem;
     vertical-align: middle;
     width: 175px;
     height: 60px;
@@ -307,7 +307,7 @@ footer{
 }
 .inspired-section p{
     position: relative;
-    font-size: 35px;
+    font-size: 2rem;
     height: 10px;
 }
 .inspired-section hr {
@@ -371,7 +371,7 @@ footer{
 
 .header-info p{
     position: relative;
-    font-size: 35px;
+    font-size: 2rem;
     height: 10px;
 }
 .header-info hr {
@@ -415,7 +415,7 @@ footer{
     background: #15182499;
     width: 100%;
     color: #fff;
-    font-size: 18px;
+    font-size: 1rem;
     top: 314px;
 }
 .info-overlay{
@@ -448,7 +448,7 @@ button{
     width: 118px;
     height: 42px;
     background-color: #006DFE;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
     border: none;
     transition: 0.3s;
