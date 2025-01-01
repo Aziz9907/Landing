@@ -88,7 +88,7 @@ header::before {
 }
 
 .search:-webkit-autofill {
-     -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+     -webkit-box-shadow: 0 0 0px 1000px black inset !important;
 }
 
 .legend-search {
