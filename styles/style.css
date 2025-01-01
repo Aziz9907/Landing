@@ -87,10 +87,6 @@ header::before {
 
 }
 
-.search:-webkit-autofill {
-     -webkit-box-shadow: 0 0 0px 350px black inset !important;
-}
-
 .legend-search {
     display: flex;
     flex-direction: column;
