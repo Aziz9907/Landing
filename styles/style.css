@@ -87,11 +87,8 @@ header::before {
 
 }
 
-.search:-webkit-autofill,
-.search:-webkit-autofill:hover,
-.search:-webkit-autofill:focus,
-.search:-webkit-autofill:active  {
-     box-shadow: 0 0 0 30px transparent inset !important;
+.search:-webkit-autofill {
+     -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
 }
 
 .legend-search {
