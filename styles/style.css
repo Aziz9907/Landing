@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url(/fonts/Lato-Light.ttf);
+    src: url(../fonts/Lato-Light.ttf);
 }
 
 html {
@@ -85,6 +85,10 @@ header::before {
     justify-content: space-between;
     color: white;
 
+}
+
+.search:-webkit-autofill {
+     -webkit-box-shadow: 0 0 0px 350px black inset !important;
 }
 
 .legend-search {
