@@ -22,8 +22,6 @@ nav {
     justify-content: space-between;
 }
 
-
-
 header {
     position: relative;
     z-index: 1;
@@ -85,10 +83,6 @@ header::before {
     justify-content: space-between;
     color: white;
 
-}
-
-.search:-webkit-autofill {
-     -webkit-box-shadow: 0 0 0px 350px black inset !important;
 }
 
 .legend-search {
