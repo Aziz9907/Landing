@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url(./fonts/Lato-Light.ttf);
+    src: url(fonts/Lato-Light.ttf);
 }
 
 html {
@@ -39,7 +39,7 @@ header::before {
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-image: url(./img/Hero.png);
+    background-image: url(img/Hero.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,7 +109,7 @@ header::before {
 
 .search::-webkit-search-cancel-button {
     -webkit-appearance: none;
-    background-image: url(./img/oui_cross.png);
+    background-image: url(img/oui_cross.png);
     width: 25px;
     height: 25px;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ header::before {
 
         .shape {
 
-            background-image: url(./img/white-arrow.png);
+            background-image: url(img/white-arrow.png);
             width: 45px;
             height: 15px;
             background-repeat: no-repeat;
@@ -227,7 +227,7 @@ header::before {
     width: 200px;
 }
 .shape {
-    background-image: url(./img/Shape.png);
+    background-image: url(img/Shape.png);
     width: 33px;
     height: 9px;
     background-repeat: no-repeat;
