@@ -103,8 +103,20 @@ header::before {
     border-top: none;
     border-left: none;
     border-right: none;
-    color: white;
+    color:white;
     padding-left: 2px;
+
+}
+
+.search:-webkit-autofill,
+.search:-webkit-autofill:hover,
+.search:-webkit-autofill:focus,
+.search:-webkit-autofill:active  {
+    transition: box-shadow 0.7s ease-out, color 0.7s ease-out;
+    outline: 2px solid rgba(0, 110, 253, 0.678);
+    -webkit-text-fill-color: #fff !important;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(27, 125, 255, 1) inset !important;
+    border-radius: 3px;
 }
 
 .search::-webkit-search-cancel-button {
@@ -366,7 +378,7 @@ footer{
     border: none;
 }
 *{
-    font-family: "Lato";
+    font-family: 'Lato';
 }
 .card {
     display: flex;
