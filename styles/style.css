@@ -394,6 +394,12 @@ footer{
     flex-wrap: wrap;
 
 }
+
+.card-logo {
+    display: flex;
+    position: relative;
+}
+
 .card-logo img{
     object-fit: cover;
     width: 392px;
@@ -401,16 +407,23 @@ footer{
 }
 .card-overlay{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background: #15182499;
     width: 100%;
     color: #fff;
     font-size: 1rem;
-    top: 314px;
 }
+
+.card-overlay p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .info-overlay{
     margin-left: 20px;
 }
